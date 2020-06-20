@@ -1,0 +1,131 @@
+/* GENERAL */
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: avenir, sans-serif;
+}
+#positioning
+{
+    width: 100%;
+    height: 100%;
+    min-width: 1000px;
+    min-height: 1000px;
+}
+
+/* HEADER */
+
+header h1
+{
+    font-size: 40px;
+    background-color: cadetblue;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding-top: 15px;
+}
+#right-panel
+{
+    position: relative;
+    background-color: cadetblue;
+    width: 60px;
+    height: 1100px;
+    top: 0px;
+    float: right;
+}
+#left-panel
+{
+    position: absolute;
+    background-color: cadetblue;
+    width: 60px;
+    height: 1100px;
+    top: 0px;
+}
+#sub-title
+{
+    text-align: center;
+    padding: 40px 0px 30px;
+}
+
+/* FORM */
+
+form
+{
+    margin: 0px auto;
+    width: 900px;
+}
+.form-questions
+{
+    display: inline-block;
+    font-size: 1em;
+    width: 400px;
+    text-align: right;
+    vertical-align: top;
+}
+.inputs
+{
+    display: inline-block;
+    margin: 0px 20px 20px 15px;
+    padding: 5px;
+    width: 200px;
+    font-size: 0.9em;
+    border-radius: 3px;
+}
+.inputs [type="radio"]
+{
+    margin-bottom: 10px ;
+}
+.inputs [type="checkbox"]
+{
+    margin-bottom: 10px ;
+}
+textarea
+{
+    border: solid 2px #ddd;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 0.9em;
+    margin-left: 15px;
+}
+#submit input
+{
+    display: block;
+    margin: 15px 0px 0px 370px;
+    background-color: cadetblue;
+    width: 100px;
+    height: 40px;
+    border: 2px solid; 
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+}
+#submit input:hover
+{
+    background-color: #ddd;
+    color: cadetblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
